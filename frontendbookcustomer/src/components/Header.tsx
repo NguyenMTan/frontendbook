@@ -45,6 +45,11 @@ const Header: React.FC = () => {
                 <h1 className="text-lg font-semibold">Product</h1>
               </Link>
             </div>
+            <div>
+              <Link to="/aboutus">
+                <h1 className="text-lg font-semibold">AboutUs</h1>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="cursor-pointer rounded-2xl p-3 hover:bg-green-200">

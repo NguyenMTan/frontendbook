@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import IsError from "@/components/Loading/IsError";
 import IsLoading from "@/components/Loading/IsLoading";
@@ -202,6 +203,7 @@ const DetailProduct: React.FC = () => {
           )}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

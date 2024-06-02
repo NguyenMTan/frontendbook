@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import IsError from "@/components/Loading/IsError";
 import IsLoading from "@/components/Loading/IsLoading";
@@ -79,7 +80,7 @@ const Products: React.FC = () => {
   if (productIsLoading || cateIsLoading) return <IsLoading />;
   if (productIsError || cateIsError) return <IsError />;
   return (
-    <>
+    <div>
       <Header />
       <div className="container mt-2">
         <div className="flex items-center justify-start gap-4">
@@ -162,8 +163,9 @@ const Products: React.FC = () => {
           />
         </div>
       </div>
-      <div>footer</div>
-    </>
+      <div className="h-5"></div>
+      <Footer />
+    </div>
   );
 };
 

@@ -9,6 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Order from "./pages/Order";
+import AboutUs from "./pages/AboutUs";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/login" Component={Login}></Route>
           <Route path="/" Component={Home} />
           <Route path="/products" Component={Products} />
+          <Route path="/aboutus" Component={AboutUs} />
           <Route path="/p/:productAlias" Component={DetailProduct} />
           <Route path="/account" Component={Account} />
 
